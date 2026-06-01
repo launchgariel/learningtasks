@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Top 10 Favorites</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #ffffff;
+            color: #111;
+            padding: 30px 20px;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 42px;
+            font-family: "Times New Roman", serif;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 18px;
+        }
+
+        .card {
+            border: 1px solid #b24b4b;
+            min-height: 290px;
+            padding: 8px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: #fff;
+        }
+
+        .card h2 {
+            align-self: flex-start;
+            font-size: 18px;
+            margin-bottom: 10px;
+            font-family: "Times New Roman", serif;
+        }
+
+        .card img {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            margin: 20px 0;
+            border-radius: 6px;
+        }
+
+        .desc {
+            text-align: center;
+            font-family: "Times New Roman", serif;
+            font-style: italic;
+            font-size: 15px;
+            line-height: 1.4;
+            padding: 0 5px;
+        }
+
+        @media (max-width: 1000px) {
+            .grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 600px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+
+            h1 {
+                font-size: 32px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>My Top 10 Favorites</h1>
+
+        <div class="grid">
+            <div class="card">
+                <h2>Top 1</h2>
+                <img src="IMAGES/adobo.png" alt="Top 1 Favorite">
+                <p class="desc">ADOBO</p>
+            </div>
+
+            <div class="card">
+                <h2>Top 2</h2>
+                <img src="https://via.placeholder.com/120" alt="Top 2 Favorite">
+                <p class="desc">CHICKENCURRY</p>
+            </div>
+
+            <div class="card">
+                <h2>Top 3</h2>
+                <img src="https://via.placeholder.com/120" alt="Top 3 Favorite">
+            <p class="desc">LUMPIA</p>
+            </div>
+
+            <div class="card">
+                <h2>Top 4</h2>
+                <img src="https://via.placeholder.com/120" alt="Top 4 Favorite">
+            <p class="desc">SINIGANG</p>
+            </div>
+
+            <div class="card">
+                <h2>Top 5</h2>
+                <img src="https://via.placeholder.com/120" alt="Top 5 Favorite">
+                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+
+            <div class="card">
+                <h2>Top 6</h2>
+                <img src="https://via.placeholder.com/120" alt="Top 6 Favorite">
+                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+
+            <div class="card">
+                <h2>Top 7</h2>
+                <img src="https://via.placeholder.com/120" alt="Top 7 Favorite">
+                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+
+            <div class="card">
+                <h2>Top 8</h2>
+                <img src="https://via.placeholder.com/120" alt="Top 8 Favorite">
+                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+
+            <div class="card">
+                <h2>Top 9</h2>
+                <img src="https://via.placeholder.com/120" alt="Top 9 Favorite">
+                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+
+            <div class="card">
+                <h2>Top 10</h2>
+                <img src="https://via.placeholder.com/120" alt="Top 10 Favorite">
+                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
